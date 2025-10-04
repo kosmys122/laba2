@@ -38,6 +38,15 @@ namespace laba2
             }
             else
                 Console.WriteLine("НЕТ");
+            //Задание 4
+            Console.Write("Возраст:");
+            int a = int.Parse(Console.ReadLine());
+            if (a >= 18)
+            {
+                Console.WriteLine("Доступ разрешен");
+            }
+            else
+                Console.WriteLine("Доступ запрещен");
         }
     }
 }
