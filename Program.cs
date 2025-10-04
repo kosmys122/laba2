@@ -29,6 +29,15 @@ namespace laba2
             }
             else
                 Console.WriteLine("Пароль не принят");
+            //Задание 3
+            Console.Write("Число:");
+            int a = int.Parse(Console.ReadLine());
+            if (a / 1000 + a % 10 == a / 100 % 10 - a / 10 % 10)
+            {
+                Console.WriteLine("ДА");
+            }
+            else
+                Console.WriteLine("НЕТ");
         }
     }
 }
