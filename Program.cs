@@ -132,6 +132,21 @@ namespace laba2
                     Console.WriteLine($"{a}{c}{b}={a / +b}");
                     break;
             }
+            //Задание 9
+            Console.Write("Число ");
+            int a = int.Parse(Console.ReadLine());
+            switch (a)
+            {
+                case 1:
+                    Console.WriteLine("Лёгкий");
+                    break;
+                case 2:
+                    Console.WriteLine("Средний");
+                    break;
+                case 3:
+                    Console.WriteLine("Сложный");
+                    break;
+            }
         }
     }
 }
