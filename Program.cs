@@ -60,6 +60,29 @@ namespace laba2
             {
                 Console.WriteLine(a);
             }
+            //Задание 6
+            Console.Write("Число1 ");
+            int a = int.Parse(Console.ReadLine());
+            Console.Write("Число2 ");
+            int b = int.Parse(Console.ReadLine());
+            Console.Write("Операция ");
+            string c = Console.ReadLine();
+            if (c == "+")
+            {
+                Console.WriteLine($"{a}{c}{b}={a + b}");
+            }
+            if (c == "-")
+            {
+                Console.WriteLine($"{a}{c}{b}={a - b}");
+            }
+            if (c == "*")
+            {
+                Console.WriteLine($"{a}{c}{b}={a * b}");
+            }
+            if (c == "/")
+            {
+                Console.WriteLine($"{a}{c}{b}={a / +b}");
+            }
         }
     }
 }
