@@ -156,5 +156,17 @@ namespace laba2
             health -= damage;
             Console.WriteLine($"Персонаж получил {damage} урона. Текущее здоролье: {health}.");
         }
-    }
+        //Задание 11
+        Console.Write("Выберите персонажа ");
+        string a = Console.ReadLine();
+        switch (a)
+        {
+            case "воин" or "разбойник" or "паладин" or "варвар":
+                Console.WriteLine("Ближний бой");
+                break;
+            case "маг" or "охотник" or "друид" or "жрец":
+                Console.WriteLine("Дальний бой");
+                break;
+        }
+}
 }
