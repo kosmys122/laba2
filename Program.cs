@@ -110,6 +110,28 @@ namespace laba2
                     Console.WriteLine("Воскресенье");
                     break;
             }
+            //Задание 8
+            Console.Write("Число1 ");
+            int a = int.Parse(Console.ReadLine());
+            Console.Write("Число2 ");
+            int b = int.Parse(Console.ReadLine());
+            Console.Write("Операция ");
+            string c = Console.ReadLine();
+            switch (c)
+            {
+                case "+":
+                    Console.WriteLine($"{a}{c}{b}={a + b}");
+                    break;
+                case "-":
+                    Console.WriteLine($"{a}{c}{b}={a - b}");
+                    break;
+                case "*":
+                    Console.WriteLine($"{a}{c}{b}={a * b}");
+                    break;
+                case "/":
+                    Console.WriteLine($"{a}{c}{b}={a / +b}");
+                    break;
+            }
         }
     }
 }
