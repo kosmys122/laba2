@@ -16,6 +16,19 @@ namespace laba2
             }
             else
                 Console.WriteLine("Число не чётное");
+
+
+            //Задание 2
+            Console.Write("Пароль ");
+            string a = Console.ReadLine();
+            Console.Write("Подтверждение пароля ");
+            string b = Console.ReadLine();
+            if (a == b)
+            {
+                Console.WriteLine("Пароль принят");
+            }
+            else
+                Console.WriteLine("Пароль не принят");
         }
     }
 }
