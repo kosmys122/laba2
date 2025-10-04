@@ -4,7 +4,7 @@ namespace laba2
 {
     internal class Program
     {
-        
+        static int health = 100;
         static void Main(string[] args)
         {
             //Задание 1
@@ -147,6 +147,14 @@ namespace laba2
                     Console.WriteLine("Сложный");
                     break;
             }
+            //Задание 10
+            Console.WriteLine($"Здоровье персонажа: {health}");
+            TakeDamage(30);
+        }
+        static void TakeDamage(int damage)
+        {
+            health -= damage;
+            Console.WriteLine($"Персонаж получил {damage} урона. Текущее здоролье: {health}.");
         }
     }
 }
