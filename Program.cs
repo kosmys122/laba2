@@ -167,6 +167,38 @@ namespace laba2
             case "маг" or "охотник" or "друид" or "жрец":
                 Console.WriteLine("Дальний бой");
                 break;
+
+
+
+
+
+                   //Задание 12
+            //Console.Write("Число1 ");
+            //int a = int.Parse(Console.ReadLine());
+            //Console.Write("Число2 ");
+            //int b = int.Parse(Console.ReadLine());
+            //Console.Write("Число3 ");
+            //int c = int.Parse(Console.ReadLine());
+            //int f = 0;
+            //if (a>0)
+            //{
+            //    f = f + a;
+            //}
+            //if (b > 0)
+            //{
+            //    f = f + b;
+            //}
+            //if (c > 0)
+            //{
+            //    f = f + c;
+            //}
+            //Console.WriteLine(f);
+
+
+
+
+
         }
+
 }
 }
