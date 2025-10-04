@@ -47,6 +47,19 @@ namespace laba2
             }
             else
                 Console.WriteLine("Доступ запрещен");
+            //Задание 5
+            Console.Write("Число1 ");
+            int a = int.Parse(Console.ReadLine());
+            Console.Write("Число2 ");
+            int b = int.Parse(Console.ReadLine());
+            if (a > b)
+            {
+                Console.WriteLine(b);
+            }
+            else
+            {
+                Console.WriteLine(a);
+            }
         }
     }
 }
