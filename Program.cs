@@ -223,7 +223,68 @@ namespace laba2
             //    if (b1==2)
             //    {
             //        Console.WriteLine("Вы попали в ловушку");
-                }
+
+             //double a = 10;
+            //double b = 3;
+            //double c = a / b;
+            //Console.WriteLine(c);
+            //double x = 10.0 / 3;
+            //Console.WriteLine(x);
+            //int x1 = 4;
+            //int y1 = ++x1;
+            //Console.WriteLine($"x1 - {x1}, y1 - {y1}");
+            //int x2 = 4;
+            //int y2 = x2++;
+            //Console.WriteLine($"x2 - {x2}, y2 - {y2}");
+            //int x = 1;
+            //Console.WriteLine(x++ + ++x);
+            //Console.WriteLine(10 / 5 * 2);
+            //decimal a = 0.1m;
+            //decimal b = 0.2m;
+            //decimal c = a + b;
+            //decimal d = 0.3m;
+            //Console.WriteLine(c == d);
+            //bool x1 = (5 > 10) && (4 < 5);
+            //Console.WriteLine(x1);
+            //double number = 313.543976;
+            //Console.WriteLine($"{number:F2}");
+            //Console.WriteLine($"{number:C}");
+            //Console.WriteLine($"{number:P}");
+            //int num = int.Parse(Console.ReadLine());
+            //if (num > 0)
+            //{
+            //    Console.WriteLine("число положительное");
+            //}
+            //else if (num == 0)
+            //{
+            //    Console.WriteLine("число 0");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("число отрицательнн");
+            //}
+            //int x = int.Parse(Console.ReadLine());
+            //int y = int.Parse(Console.ReadLine());
+            //int z = (x > y) ? (x + y) : (x - y);
+
+            string nameGame = Console.ReadLine().ToLower();
+            switch (nameGame)
+            {
+                case "minecraft":
+                    Console.WriteLine("Ваша игра minecraft");
+                    break;
+                case "dota 2":
+                    Console.WriteLine("Ваша игра dota 2");
+                    goto case "minecraft";
+                default:
+                    Console.WriteLine("Игра не найдена");
+                    break;
+
+
+            }
+
+
+}
 }
         }
     }
